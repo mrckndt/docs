@@ -92,10 +92,20 @@ Server software
 Mattermost server operating system
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- Ubuntu 18.04, Debian Buster, CentOS 6+, CentOS 7+, RedHat Enterprise Linux 7+, Oracle Linux 6+, Oracle Linux 7+.
-- Using the Mattermost `Docker deployment <https://github.com/mattermost/docker>`__ on a Docker-compatible operating system (Linux-based OS) is still recommended.
+Using the Mattermost `Docker deployment <https://github.com/mattermost/docker>`__ on a Docker-compatible operating system (Linux-based OS) is still recommended.
 
-While community support exists for Fedora, FreeBSD, and Arch Linux, Mattermost does not currently include production support for these platforms.
+The current stable and supported versions of the following Linux distributions are supported for running Mattermost:
+
+- Ubuntu LTS
+- Debian
+- CentOS
+- RedHat Enterprise Linux
+- Oracle Linux
+
+.. note::
+
+    - Testing/unstable and End-Of-Life/unsupported releases of these distributions are explicitly excluded from support by Mattermost.
+    - While community support exists for Fedora, FreeBSD, and Arch Linux, Mattermost does not currently include production support for these platforms.
 
 Database software
 ^^^^^^^^^^^^^^^^^
